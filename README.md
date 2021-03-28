@@ -12,7 +12,7 @@ Or you can visit [my blog](https://marcushwz.netlify.app/) where I have hosted i
 This theme is tested to be working on Netlify, simply follow the installation procedures below and you will have the theme in place.
 The idea of this theme is to keep things very minimal, so the theme is mainly focusing on the index.html and page.html. There are no suport for `Tag or Categories` for now.
 
-This theme is not tested on GitHub Pages, but it seems like GitHub Pages does not support gem based theme. So you mmight have to copy those necessary folders to your Jekyll project if you are planning to host your blog on GitHub Pages.
+This theme is not tested on GitHub Pages, but it seems like GitHub Pages does not support gem based theme. So you might have to copy those necessary folders into your Jekyll project if you are planning to host your blog on GitHub Pages.
 
 
 ## Installation
