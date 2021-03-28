@@ -1,6 +1,6 @@
 # hey-world
 
-This theme is inspired by Hey by Basecamp. They have recently introduce https://hey.com/world/ and I really like the minimal look for the blogging page. Here is one example by [DHH](https://world.hey.com/dhh/).
+This theme is inspired by Hey by Basecamp. They have recently introduced https://hey.com/world/ and I really like the minimal look for the blogging page. Here is one example by [DHH](https://world.hey.com/dhh/).
 
 This is what this theme looks like for a jekyll project:
 ![sample](./sample.png)
