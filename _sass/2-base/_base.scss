@@ -1,0 +1,154 @@
+body {
+  background-color: #1b2733;
+  // font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 6.4rem;
+}
+
+.grid-container {
+  display: grid;
+  padding: 10px;
+  max-width: 790px;
+  margin: 0 auto;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.grid-item {
+  max-width: 702px;
+}
+
+.pagination {
+  margin-top: 1rem;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #eae7e4;
+    padding: 0.3em 0.8em;
+    border-radius: 3rem;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid #eae7e4;
+  }
+}
+
+.author-container {
+  margin-top: 2.6rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  .logo-link {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    z-index: 1;
+  }
+  .author-name {
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 0rem;
+    text-transform: uppercase;
+    color: #a4a7a9;
+  }
+  img {
+    width: 2.625em;
+    height: 2.635em;
+    border-radius: 100%;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.post {
+  margin-top: 0;
+  text-align: center;
+  color: #ece9e6;
+  blockquote {
+    font-style: italic;
+    margin: 1.6rem;
+    padding-block: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 1.5rem;
+    border-inline-start: 1px solid #3a444e;
+  }
+  cite {
+    font-weight: bold;
+  }
+  a {
+    color: #4e9df7;
+  }
+  .header {
+    margin-bottom: 2.6rem;
+  }
+  .date {
+    font-size: 14px;
+    color: #8c9195;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 0rem;
+    margin-bottom: 0.6rem;
+  }
+  .content {
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.6rem;
+  }
+  img {
+    width: 100%;
+    margin: 0.625rem 0;
+    text-align: center;
+  }
+}
+
+.post-container {
+  position: relative;
+  padding: 1.6rem;
+  border-radius: 0.2rem;
+  border: 1px solid #3a444e;
+  color: #ece9e6;
+  text-align: center;
+  .post-title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 0rem;
+    margin-bottom: 0.6rem;
+  }
+  .date {
+    font-size: 14px;
+    color: #8c9195;
+  }
+  .excerpt {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 3rem;
+  }
+  .card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    z-index: 1;
+  }
+  .read-more-section {
+    padding: 1.75em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 0;
+  }
+  .read-more-button {
+    color: #8c9195;
+    padding: 0.3em 0.8em;
+    border-radius: 3rem;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid #3a444e;
+  }
+}

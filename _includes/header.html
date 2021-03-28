@@ -1,0 +1,14 @@
+<div class="grid-item">
+  <div class="author-container">
+    {%if site.logo and site.logo != "" %}
+    <div class="logo">
+      <a class="logo-link" href="{{site.baseurl}}" />
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
+    </div>
+    {% endif %} {% if site.author.name %}
+    <div>
+      <a class="author-name" href="{{site.baseurl}}">{{site.author.name}}</a>
+    </div>
+    {% endif %}
+  </div>
+</div>

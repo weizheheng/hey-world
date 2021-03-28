@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<div class="grid-item">
+  <article class="post-container">
+    <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>
+    <p class="post-title">{{post.title}}</p>
+    <p class="excerpt">
+      {% if post.description %}{{ post.description }}{% else %}{{ post.content |
+      strip_html | truncate: 300 }}{% endif %}
+    </p>
+    <a class="card-link" href="{{post.url}}"></a>
+    <div class="read-more-section">
+      <span class="read-more-button">Read more</span>
+    </div>
+  </article>
+</div>
+{% endfor %} {% if paginator.next_page %}
+<div class="grid-item">
+  <div class="pagination">
+    <a class="pagination-next" href="{{post.url}}">See more posts »</a>
+  </div>
+</div>
+{% endif %}
