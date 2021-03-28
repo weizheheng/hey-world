@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% if site.mailchimp %} {% include subscribe-form.html %} {% endif %} {% for
+post in site.posts %}
 <div class="grid-item">
   <article class="post-container">
     <span class="date"> {{ post.date | date: '%B %d, %Y' }} </span>

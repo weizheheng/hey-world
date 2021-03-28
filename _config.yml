@@ -1,6 +1,8 @@
 title: "Marcus Heng"
 logo: "images/logo.jpg" # You can add own logo image.
 baseurl: "/" # The subpath of your site, e.g. /blog
+# Uncomment to enable subscribe form
+; mailchimp: "" # Put in your audience list url
 # Author Settings
 author:
   name: Marcus Heng
