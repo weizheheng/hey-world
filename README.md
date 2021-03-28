@@ -1,11 +1,11 @@
 # hey-world
 
-This theme is inspired by Hey by Basecamp. They have recently introduce https://hey.com/world/ and I really like the minimal look for the blogging page. Here is one example by [DHH](https://world.hey.com/dhh/)
+This theme is inspired by Hey by Basecamp. They have recently introduce https://hey.com/world/ and I really like the minimal look for the blogging page. Here is one example by [DHH](https://world.hey.com/dhh/).
 
-This is what this theme looks like for a jekyll project
+This is what this theme looks like for a jekyll project:
 ![sample](./sample.png)
 
-Or you can visit [my blog](https://marcushwz.netlify.app/) where I have hosted in on Netlify using this theme
+Or you can visit [my blog](https://marcushwz.netlify.app/) where I have hosted it on Netlify using this theme.
 
 ## Usage
 
