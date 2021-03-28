@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "hey-world"
-  spec.version       = "0.1.6"
+  spec.version       = "0.1.7"
   spec.authors       = ["Marcus Heng"]
   spec.email         = ["marcushwz@gmail.com"]
 
-  spec.summary       = "Inspired by Hey World by Basecamp"
-  spec.homepage      = "http://website.com"
+  spec.summary       = "Minimal Jekyll theme inspired by HEY World from Basecamp"
+  spec.homepage      = "https://github.com/marcushwz/hey-world"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
