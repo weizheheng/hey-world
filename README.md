@@ -29,9 +29,9 @@ Or install it yourself as:
 
     $ gem install hey-world
 
-## Usage
+## Introduction
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+This theme is inspired by Hey by Basecamp. They have recently introduce https://hey.com/world/ and really like the minimal look for the blogging page. Here is one example by [DHH](https://world.hey.com/dhh/)
 
 ## Contributing
 
