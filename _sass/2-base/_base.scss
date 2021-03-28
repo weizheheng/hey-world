@@ -4,7 +4,7 @@ body {
 }
 
 .main-container {
-  padding: 1.6rem;
+  padding: 0.4rem;
   position: relative;
 }
 
@@ -107,6 +107,8 @@ body {
 }
 
 .newsletter-container {
+  position: relative;
+  padding: 1.5rem;
   text-align: center;
   border-radius: 0.2rem;
   border: 1px solid #3a444e;
@@ -116,10 +118,10 @@ body {
   margin-bottom: 1.6rem;
   transform: rotate(-1deg);
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.15);
-  padding: 2em;
   .form-input {
     display: flex;
-    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 1rem;
   }
   .title {
     font-weight: bold;
@@ -134,10 +136,11 @@ body {
     box-sizing: border-box;
   }
   input[type="email"] {
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+    padding: 0.65rem 1em;
+    margin: 0;
     border-top-left-radius: 3rem;
+    display: block;
+    width: 100%;
     border: 1px solid #3a444e;
     color: #ece9e6;
     font-size: 14px;
@@ -156,15 +159,14 @@ body {
     border: 1px solid rgba(81, 203, 238, 1);
   }
   input[type="submit"] {
+    padding: 0.5rem 1em;
     border: 1px solid #3a444e;
     border-left-color: transparent;
-    margin: 8px 0;
-    box-sizing: border-box;
+    margin: 0;
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
     color: #ece9e6;
     font-size: 14px;
-    padding: 0.5em 0.9em;
     cursor: pointer;
     background-color: #2d3643;
   }
